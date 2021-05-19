@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Hello World!</title>
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline';" />
+    
+
+</head>
+<body style="background: #772953; font-size: x-large; color:white">
+    <h1 style="text-align: center;">Task manager</h1>
+    <hr>
+    
+    <div style="text-align: center;">
+        <label for="subname">Subject Name: </label>
+        <input type="text" id="subname" name="sub">
+    </div>
+    <div style="text-align: center;">
+        <label for="appt">Select a time: </label>
+        <input type="time" id="appt" name="appt">
+
+        <label for="appt">Link: </label>
+        <input type="text" id="mylink" name="link">
+        
+    </div>
+    <div style="text-align: center;">
+        <button id=button1>+Add task</button>
+    </div>
+
+    <hr>
+    <h2>My Tasks - </h2>
+    <div id="div1" style="padding: auto; color: white;"></div>
+    
+
+    <hr>
+
+    <div>
+        <label for="delname">Delete Subject Name: </label>
+        <input type="text" id="delname" name="del">
+        <button id="button2">Delete task !!</button>
+    </div>
+
+    <script src="functions.js"></script>
+    
+    
+</body>
+</html>
